@@ -115,8 +115,16 @@ On affiche les logs du service ssh avec la commande ```journalctl -u vsftpd```
 
 <img src="image tp2/2/journal.PNG">
 
-On se connecte a notre serveur... A défaut d'avoir réussi par un navigateur web. Je suis passé directement par l'explorateur </p>
-de fichier windows 
+On se connecte a notre serveur... A défaut d'avoir réussi par un navigateur web. Je suis passé directement par l'explorateur de fichier windows avec ```ftp://IP``` </p>
+On peut alors telecharger et uploader un fichier facilement comme un simple transfert de fichier au sein d'un meme PC.
+
+Preuve upload avec ls
+
+<img src="image tp2/2/preuve ls upload.PNG">
+
+ligne de log pour le download et l'upload
+
+<img src="image tp2/2/download upload log.PNG">
 
 
 
