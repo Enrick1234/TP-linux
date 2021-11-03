@@ -8,7 +8,7 @@
 
 On change le nom de la machine 
 
-<img src="image tp2/2/nom machine.PNG" alt="jndjqs"/>
+<img src="image tp2/1/nom machine.PNG" alt="jndjqs"/>
 
 #### Config réseau
 
