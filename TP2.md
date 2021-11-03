@@ -7,7 +7,7 @@
 #### Nommer la machine
 
 On change le nom de la machine 
- (/image tp2/nom machine.PNG/ "qihq")
+ ![alt text](/image tp2/nom machine.PNG/ "qihq")
 
 ps -e
 ss -lanpt
