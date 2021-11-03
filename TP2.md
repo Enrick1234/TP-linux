@@ -59,7 +59,11 @@ On a déja vu le statut du service juste ci-dessus
 
 On affiche les processus liés auservice ssh avec la commande ```ps -e```
 
-<img src="image tp2/1/ps ssh status.png">
+<img src="image tp2/1/ps ssh status.PNG">
+
+On affiche le port utilisé par le service ssh avec la commande ```sudo ss -lanpt```
+
+<img src="image tp2/1/ss ssh port.PNG">
 
 ps -e
 ss -lanpt
