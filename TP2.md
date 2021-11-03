@@ -7,7 +7,7 @@
 #### Nommer la machine
 
 On change le nom de la machine 
-![alt text](nom machine.PNG "qihq")
+Tp Are you dead yet/nom machine.PNG
 
 ps -e
 ss -lanpt
