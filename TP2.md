@@ -11,7 +11,7 @@ On change le nom de la machine
 <img src="image tp2/1/nom machine.PNG" alt="jndjqs"/>
 
 et de manière définitive 
-<img src="image tp2/1/nom def machine.PNG>
+<img src="image tp2/1/nom def machine.PNG">
 
 #### Config réseau
 
