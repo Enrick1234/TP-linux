@@ -18,3 +18,6 @@ nc 192.168.56.112
 
 nc -l -p 6668 >> file.txt
 nc 192.168.56.112 >> file.txt
+
+<img src="nom machine.PNG" alt="jndjqs"/>
+
