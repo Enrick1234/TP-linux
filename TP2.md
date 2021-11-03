@@ -53,6 +53,14 @@ et on verifie que le service est actif avec ```sudo systemctl status sshd```
 
 <img src="image tp2/1/etat server.PNG">
 
+#### Etude du service SSH
+
+On a déja vu le statut du service juste ci-dessus
+
+On affiche les processus liés auservice ssh avec la commande ```ps -e```
+
+<img src="image tp2/1/ps ssh status">
+
 ps -e
 ss -lanpt
 journal -u
