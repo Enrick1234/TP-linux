@@ -10,13 +10,25 @@ On change le nom de la machine
 
 <img src="image tp2/1/nom machine.PNG" alt="jndjqs"/>
 
-et de manière définitive 
+et de manière définitive dans /etc/hostname
 
 <img src="image tp2/1/nom def machine.PNG">
 
 #### Config réseau
 
-<img src=">
+ping 1.1.1.1
+
+<img src="image tp2/1/ping 1.1.1.1.PNG">
+
+ping ynov.com
+
+<img src="image tp2/1/ping ynov.PNG">
+
+ping IP_VM
+
+<img src="image tp2/1/ping ordi.PNG">
+
+
 
 ps -e
 ss -lanpt
