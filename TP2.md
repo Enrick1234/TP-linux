@@ -127,6 +127,16 @@ ligne de log pour le download et l'upload
 <img src="image tp2/2/download upload log.PNG">
 
 
+### Modification de la configuration serveur
+
+On peut encore changer le port d'écoute que l'on va mettre sur 6667 cette fois-ci. On a du rajouter la ligne(listen_port) car absente de base
+
+<img src="image tp2/2/port changed.PNG">
+
+<img src="image tp2/2/preuve port changed.PNG">
+
+On peut se reconnecter avec ```ftp://IP:XXXX``` avec XXXX le numéro du port dans mon cas 6667
+
 
 
 
