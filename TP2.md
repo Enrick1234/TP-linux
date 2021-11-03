@@ -140,7 +140,23 @@ On peut encore changer le port d'écoute que l'on va mettre sur 6667 cette fois-
 On peut se reconnecter avec ```ftp://IP:XXXX``` avec XXXX le numéro du port dans mon cas 6667
 
 
+## Partie 3
 
+
+### Jouer avec netcat
+
+Afin de creer un petit chat entre 2 machines on tap </p>
+Sur la VM on tape ```nc -l -p XXXX``` et sur l'ordi ```nc IP``` avec IP, l'adresse ip et XXXX le numéro de port
+
+Pour stocker l'echange on peut creer un fichier texte(file.txt)
+
+Cette fois ci on change légerement les commandes ```nc -l -p XXXX >> file.txt``` et ```nc IP >> file.txt``` </p>
+
+De cette manière tout l'échange sera stocké sur le fichier appelé file.txt
+
+### Un service basé sur netcat
+
+On crée le fichier ```/etc/systemd/system/chat_tp2.service``` puis on lui donne toute les perm avec ```sudo chmod 777 chat_tp2.service```
 
 
 
