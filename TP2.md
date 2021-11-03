@@ -1,10 +1,16 @@
 # TP2-linux
 
+
+
 ## TP2 : Manipulation de services
+
+
 
 ### Intro
 
+
 #### Nommer la machine
+
 
 On change le nom de la machine 
 
@@ -15,6 +21,7 @@ et de manière définitive dans /etc/hostname
 <img src="image tp2/1/nom def machine.PNG">
 
 #### Config réseau
+
 
 ping 1.1.1.1
 
@@ -29,6 +36,22 @@ ping IP_VM
 <img src="image tp2/1/ping ordi.PNG">
 
 
+### PARTIE 1
+
+
+#### Installation du serveur
+
+
+Avec une commande ```sudo apt install openssh-server``` on installe le paquet openssh-server
+
+
+#### Lancement du service SSH
+
+
+On lance le serveur avec ```sudo systemctl start sshd```
+et on verifie que le service est actif avec ```sudo systemctl status sshd```
+
+<img src="image tp2/1/etat server.PNG">
 
 ps -e
 ss -lanpt
