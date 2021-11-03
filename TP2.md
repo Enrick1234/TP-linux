@@ -59,7 +59,7 @@ On a déja vu le statut du service juste ci-dessus
 
 On affiche les processus liés auservice ssh avec la commande ```ps -e```
 
-<img src="image tp2/1/ps ssh status">
+<img src="image tp2/1/ps ssh status.png">
 
 ps -e
 ss -lanpt
