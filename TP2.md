@@ -53,7 +53,9 @@ et on verifie que le service est actif avec ```sudo systemctl status sshd```
 
 <img src="image tp2/1/etat server.PNG">
 
+
 #### Etude du service SSH
+
 
 On a déja vu le statut du service juste ci-dessus
 
@@ -65,9 +67,28 @@ On affiche le port utilisé par le service ssh avec la commande ```sudo ss -lanp
 
 <img src="image tp2/1/ss ssh port.PNG">
 
+On affiche les logs du service ssh avec la commande ```journalctl -u```
+
+<img src="image tp2/1/ssh lastlog.PNG">
+
+On se connecte a notre serveur depuis notre PC avec ```ssh user@IP```
+
+<img src="image tp2/1/connexion pc externe.PNG">
+
+
+#### Modification de la configuration du server
+
+On peut modifier le service dans le fichier /etc/ssh/sshd_config. </p>
+On peut par exemple modifié le port d'écoute qui est sur 22 de base et le mettre par exemple sur 6666
+
+<img src="image tp2/1/cat port modifié.PNG">
+
+<img src="image tp2/1/ss port modifié.PNG">
+
+
 ps -e
 ss -lanpt
-journal -u
+journalctl -u
 
 nc -l -p 6668
 nc 192.168.56.112
