@@ -1,15 +1,11 @@
-# TP2-linux
+# TP2 : Manipulation de services
 
 
 
-## TP2 : Manipulation de services
+## Intro
 
 
-
-### Intro
-
-
-#### Nommer la machine
+### Nommer la machine
 
 
 On change le nom de la machine 
@@ -20,7 +16,7 @@ et de manière définitive dans /etc/hostname
 
 <img src="image tp2/1/nom def machine.PNG">
 
-#### Config réseau
+### Config réseau
 
 
 ping 1.1.1.1
@@ -36,16 +32,16 @@ ping IP_VM
 <img src="image tp2/1/ping ordi.PNG">
 
 
-### PARTIE 1
+## PARTIE 1
 
 
-#### Installation du serveur
+### Installation du serveur
 
 
 Avec une commande ```sudo apt install openssh-server``` on installe le paquet openssh-server
 
 
-#### Lancement du service SSH
+### Lancement du service SSH
 
 
 On lance le serveur avec ```sudo systemctl start sshd```
@@ -54,7 +50,7 @@ et on verifie que le service est actif avec ```sudo systemctl status sshd```
 <img src="image tp2/1/etat server.PNG">
 
 
-#### Etude du service SSH
+### Etude du service SSH
 
 
 On a déja vu le statut du service juste ci-dessus
@@ -67,7 +63,7 @@ On affiche le port utilisé par le service ssh avec la commande ```sudo ss -lanp
 
 <img src="image tp2/1/ss ssh port.PNG">
 
-On affiche les logs du service ssh avec la commande ```journalctl -u```
+On affiche les logs du service ssh avec la commande ```journalctl -u ssh```
 
 <img src="image tp2/1/ssh lastlog.PNG">
 
@@ -76,7 +72,7 @@ On se connecte a notre serveur depuis notre PC avec ```ssh user@IP```
 <img src="image tp2/1/connexion pc externe.PNG">
 
 
-#### Modification de la configuration du server
+### Modification de la configuration du server
 
 On peut modifier le service dans le fichier /etc/ssh/sshd_config. </p>
 On peut par exemple modifié le port d'écoute qui est sur 22 de base et le mettre par exemple sur 6666
@@ -84,6 +80,11 @@ On peut par exemple modifié le port d'écoute qui est sur 22 de base et le mett
 <img src="image tp2/1/cat port modifié.PNG">
 
 <img src="image tp2/1/ss port modifié.PNG">
+
+On se connecte sur le nouveau port avec ```ssh user@IP -p XXXX``` XXXX pour le numéro de port dans mon cas 6666
+
+
+##
 
 
 ps -e
