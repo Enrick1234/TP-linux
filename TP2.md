@@ -7,7 +7,12 @@
 #### Nommer la machine
 
 On change le nom de la machine 
-Tp Are you dead yet/nom machine.PNG
+
+<img src="image tp2/2/nom machine.PNG" alt="jndjqs"/>
+
+#### Config réseau
+
+<img src>
 
 ps -e
 ss -lanpt
@@ -19,5 +24,5 @@ nc 192.168.56.112
 nc -l -p 6668 >> file.txt
 nc 192.168.56.112 >> file.txt
 
-<img src="nom machine.PNG" alt="jndjqs"/>
+
 
