@@ -146,11 +146,11 @@ On peut se reconnecter avec ```ftp://IP:XXXX``` avec XXXX le numéro du port dan
 ### Jouer avec netcat
 
 Afin de creer un petit chat entre 2 machines on tap </p>
-Sur la VM on tape ```nc -l -p XXXX``` et sur l'ordi ```nc IP``` avec IP, l'adresse ip et XXXX le numéro de port
+Sur la VM on tape ```nc -l -p XXXX``` et sur l'ordi ```nc IP XXXX``` avec IP, l'adresse ip et XXXX le numéro de port
 
 Pour stocker l'echange on peut creer un fichier texte(file.txt)
 
-Cette fois ci on change légerement les commandes ```nc -l -p XXXX >> file.txt``` et ```nc IP >> file.txt``` </p>
+Cette fois ci on change légerement les commandes ```nc -l -p XXXX >> file.txt``` et ```nc IP XXXX >> file.txt``` </p>
 
 De cette manière tout l'échange sera stocké sur le fichier appelé file.txt
 
@@ -158,18 +158,15 @@ De cette manière tout l'échange sera stocké sur le fichier appelé file.txt
 
 On crée le fichier ```/etc/systemd/system/chat_tp2.service``` puis on lui donne toute les perm avec ```sudo chmod 777 chat_tp2.service```
 
+On le remplit de la manière suivante 
 
+<img src="image tp2/2/chattp2.PNG">
 
+On lance le service qui est désormais opérationelle et on se connecte sur un pc, on envoie quelque message pour tester le service. </p>
+On regarder les logs pour voir les messages avec ```journalctl -xe -u chat_tp2```
 
-ps -e
-ss -lanpt
-journalctl -u
+<img src="image tp2/2/chatlog.PNG">
 
-nc -l -p 6668
-nc 192.168.56.112
-
-nc -l -p 6668 >> file.txt
-nc 192.168.56.112 >> file.txt
 
 
 
