@@ -42,4 +42,27 @@ File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4
 ## MAKE IT A SERVICE
 
 **Fichier script [`/srv/yt/yt-v2.sh`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/service.md)**
-**
+**Fichier service [`/etc/systemd/system/yt.service`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/systemservice)**
+
+Malheuresement le service ne se lance pas tout fonctionne correctement lorsque je le lance à la main mais pas avec le service
+
+Je mets l'erreur juste ci dessous
+
+```
+Warning: The unit file, source configuration file or drop-ins of yt1.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+● yt1.service - dl video yt
+     Loaded: loaded (/etc/systemd/system/yt1.service; disabled; vendor preset: enabled)
+     Active: failed (Result: exit-code) since Mon 2021-11-22 16:05:31 CET; 1h 45min ago
+    Process: 32299 ExecStart=/usr/bin/sudo bash /usr/local/bin/yt1.service (code=exited, status=127)
+   Main PID: 32299 (code=exited, status=127)
+
+nov. 22 16:05:31 enrick-aspirees1531 systemd[1]: Started dl video yt.
+nov. 22 16:05:31 enrick-aspirees1531 sudo[32299]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/bash /usr/local/bin/yt1.service
+nov. 22 16:05:31 enrick-aspirees1531 sudo[32299]: pam_unix(sudo:session): session opened for user root by (uid=0)
+nov. 22 16:05:31 enrick-aspirees1531 sudo[32300]: bash: /usr/local/bin/yt1.service: No such file or directory
+nov. 22 16:05:31 enrick-aspirees1531 sudo[32299]: pam_unix(sudo:session): session closed for user root
+nov. 22 16:05:31 enrick-aspirees1531 systemd[1]: yt1.service: Main process exited, code=exited, status=127/n/a
+nov. 22 16:05:31 enrick-aspirees1531 systemd[1]: yt1.service: Failed with result 'exit-code'
+```
+
+
