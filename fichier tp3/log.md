@@ -1,0 +1,5 @@
+[2021/11/22 14:59:50] Video https://www.youtube.com/watch?v=Wch3gJG2GJ4 was downloaded. File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4
+[2021/11/22 15:03:36] Video https://www.youtube.com/watch?v=Wch3gJG2GJ4 was downloaded. File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4
+[2021/11/22 15:03:44] Video https://www.youtube.com/watch?v=Wch3gJG2GJ4 was downloaded. File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4
+[2021/11/22 15:21:40] Video https://www.youtube.com/watch?v=jjs27jXL0Zs was downloaded. File path : /srv/yt/downloads/SI LA VIDÉO DURE 1 SECONDE LA VIDÉO S'ARRÊTE/SI LA VIDÉO DURE 1 SECONDE LA VIDÉO S'ARRÊTE.mp4
+[2021/11/22 15:21:50] Video https://www.youtube.com/watch?v=Wch3gJG2GJ4 was downloaded. File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4

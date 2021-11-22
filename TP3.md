@@ -3,8 +3,9 @@
 ## Script carte d'identité
 
 **Fichier [`/srv/idcard/idcard.sh`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/idcard.md)**
-
-```Machine name: enrick-aspirees1531
+ 
+``` 
+Machine name: enrick-aspirees1531
 IP: 192.168.1.19/24
 OS Ubuntu and kernel version is 5.8.0-63-generic
 Ram :766572  RAM restante sur 7,6Gi  RAM totale
@@ -24,8 +25,9 @@ LISTEN 0      5              [::1]:631            [::]:*     users:(("cupsd",pid
 LISTEN 0      4096               *:25565             *:*     users:(("java",pid=16079,fd=26))
 parse error: Invalid numeric literal at line 1, column 6
 
-Here's your random cat : ```
+Here's your random cat : 
+```
 
 ## Script youtube-dl
 
-**Script [`/srv/yt/yt.sh`]()
+**Fichier [`/srv/yt/yt.sh`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/script.md)**
