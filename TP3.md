@@ -31,3 +31,15 @@ Here's your random cat :
 ## Script youtube-dl
 
 **Fichier [`/srv/yt/yt.sh`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/script.md)**
+**Log [`/var/log/yt/download.log`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/log.md)**
+
+```
+enrick@enrick-aspirees1531:/srv/yt$ bash yt.sh https://www.youtube.com/watch?v=Wch3gJG2GJ4
+Video https://www.youtube.com/watch?v=Wch3gJG2GJ4 was downloaded
+File path : /srv/yt/downloads/1 Second Video/1 Second Video.mp4
+```
+
+## MAKE IT A SERVICE
+
+**Fichier script [`/srv/yt/yt-v2.sh`](https://github.com/Enrick1234/TP-linux/blob/main/fichier%20tp3/service.md)**
+**
