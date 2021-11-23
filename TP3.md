@@ -67,4 +67,4 @@ nov. 22 16:05:31 enrick-aspirees1531 systemd[1]: yt1.service: Main process exite
 nov. 22 16:05:31 enrick-aspirees1531 systemd[1]: yt1.service: Failed with result 'exit-code'
 ```
 
-
+Edit : Tout fonctionne juste une erreur bête dans le chemin du ExecStart du systemd, j'ai mis .service à la place de .sh
