@@ -1,10 +1,13 @@
 # TP5 P'tit cloud perso
 
 [I. Setup DB](#i-setup-db)
+
   - [1. Install MariaDB](#1-install-mariadb)
   - [2. Conf MariaDB](#2-conf-mariadb)
   - [3. Test](#3-test)
+
 [II. Setup Web](#ii-setup-web)
+
   - [1. Install Apache](#1-install-apache)
   - [2. Conf Apache](#2-conf-apache)
   - [3. Install NextCloud](#3-install-nextcloud)
