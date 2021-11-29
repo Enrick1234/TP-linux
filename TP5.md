@@ -63,6 +63,7 @@ success
 [toto@db ~]$ sudo firewall-cmd --reload
 success
 ```
+## 2. Conf MariaDB
 
 On execute la commande ```mysql_secure_installation```
 
