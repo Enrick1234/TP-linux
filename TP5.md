@@ -4,7 +4,11 @@
   - [1. Install MariaDB](#1-install-mariadb)
   - [2. Conf MariaDB](#2-conf-mariadb)
   - [3. Test](#3-test)
-
+[II. Setup Web](#ii-setup-web)
+  - [1. Install Apache](#1-install-apache)
+  - [2. Conf Apache](#2-conf-apache)
+  - [3. Install NextCloud](#3-install-nextcloud)
+  - [4. Test](#4-test)
 
 ## I. Setup DB
 
@@ -63,11 +67,11 @@ success
 [toto@db ~]$ sudo firewall-cmd --reload
 success
 ```
-## 2. Conf MariaDB
+### 2. Conf MariaDB
 
 On execute la commande ```mysql_secure_installation```
 
-Les question
+Les questions :
 
 ```Enter current password for root (enter for none):```
 
@@ -102,6 +106,8 @@ On teste la connexion avec :
 
 ```sudo mysql -p -h 10.5.1.12 -P 3306 -u nextcloud nextcloud```
 
+### 3. Test
+
 ```
 [toto@web ~]$ sudo mysql -p -h 10.5.1.12 -P 3306 -u nextcloud nextcloud
 Enter password:
@@ -123,6 +129,8 @@ mysql>
 mysql> SHOW TABLES;
 Empty set (0.00 sec)
 ```
+
+### 1. Install Apache
 
 On installe Apache
 
@@ -172,7 +180,7 @@ Test
 
 On installe maintenant PHP en suivant les commandes
 
-## II. Conf Apache
+### 2. Conf Apache
 
 
 ```
@@ -210,7 +218,7 @@ Configuration de PHP
 ;date.timezone = "Europe/Paris"
 ```
 
-## III. Install NextCloud
+### 3. Install NextCloud
 
 On récupère NextCloud
 
