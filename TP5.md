@@ -1,6 +1,8 @@
-- [0. Prérequis](#0-prérequis)
-- [I. Setup DB](./db.md)
-- [II. Setup Web](./web.md)
+# TP5 P'tit cloud perso
+
+[I. Setup DB](#i-setup-db)
+
+## I. Setup DB
 
 On installe mariadb
 
