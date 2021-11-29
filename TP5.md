@@ -1,7 +1,7 @@
 # TP5 P'tit cloud perso
 
 [I. Setup DB](#i-setup-db)
-[1. Install MariaDB](#1-install-mariadb)
+  - [1. Install MariaDB](#1-install-mariadb)
   - [2. Conf MariaDB](#2-conf-mariadb)
   - [3. Test](#3-test)
 
