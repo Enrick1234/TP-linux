@@ -230,7 +230,9 @@ On récupère NextCloud
 On l'extrait et on le deplace
 
 ```unzip nextcloud-21.0.1.zip```
+
 ```mv nextcloud /var/www/nextcloud/html/```
+
 ```rm nextcloud-21.0.1.zip```
 
 Modification fichier hosts
