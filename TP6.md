@@ -131,3 +131,15 @@ success
 [toto@backup backup]$ sudo firewall-cmd --reload
 success
 ```
+
+Port 
+
+```
+[toto@backup ~]$ sudo ss -lanpt | grep 2049
+LISTEN 0      64           0.0.0.0:2049       0.0.0.0:*
+ESTAB  0      0          10.5.1.13:2049     10.5.1.12:692
+ESTAB  0      0          10.5.1.13:2049     10.5.1.11:741
+LISTEN 0      64              [::]:2049          [::]:*
+```
+
+##  3. Setup des clients NFS : web.tp6.linux et db.tp6.linux
