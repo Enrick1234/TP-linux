@@ -81,7 +81,7 @@ tmpfs                         81M     0   81M   0% /run/user/1000
 /dev/mapper/backup-lvbackup  4.9G   20M  4.6G   1% /backup
 ```
 
-````
+```
 [toto@backup /]$ ls -l
 total 24
 drwxr-xr-x.   3 toto toto 4096 Nov 30 11:42 backup
@@ -143,3 +143,17 @@ LISTEN 0      64              [::]:2049          [::]:*
 ```
 
 ##  3. Setup des clients NFS : web.tp6.linux et db.tp6.linux
+
+Sur les 2 machines
+
+```dnf install nfs-utils```
+```mkdir /srv/backup```
+
+Conf /etc/idmapd.conf
+
+```
+[toto@db backup]$ cat /etc/idmapd.conf | grep Domain
+Domain = tp6.linux
+```
+
+```sudo mount -t nfs 10.5.1.13:/backup/(db) and (web).tp6.linux /srv/backup```
